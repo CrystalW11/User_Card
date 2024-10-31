@@ -1,0 +1,119 @@
+
+.box-1 {
+    margin: 20px;
+    background-color: whitesmoke;
+    width:700px;
+    justify-content: left;
+    flex-shrink: 20%;
+    block-size: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+}
+div {
+    width: 100px;
+    height: 300px;
+    border: 2px solid grey;
+    box-shadow: 20px;
+    box-shadow: color(grey grey grey);
+    padding: 50px;
+    margin: 20px;
+    justify-content: flex-end;
+  
+}
+.container {
+    width: 700px;
+    height: 50px;
+    background-color:lightcyan;
+    padding: 50px;
+    display: flex;
+    justify-content: bottom;
+    justify-content: flex-start;
+    margin-bottom: -50px;
+    block-size:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+    justify-content: center;
+    border-radius: 60%;
+    height: 80px;
+    width: 90px;
+    display:flex;
+    float: inline-start;
+    margin-left: -75px;
+    margin-top: -70px;
+    padding:50px;
+    block-size: 100px;
+}    
+.marker-map {
+    height: auto;
+    block-size:0px;
+    width: 15px;
+    padding: 60px;
+    padding-left: 25px;
+    margin-right: 10px;
+    margin:5px;
+    font-weight: 400;
+}
+h1 {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    justify-content: bottom;
+    justify-content: flex-start;
+    margin-right: 150px;
+    margin-bottom: 0px;
+        /* Adjust to bring h1 and h4 closer */
+}
+h4 {
+    display: inline;
+    /* Removed redundant 'flex' */
+    text-align: left;
+    width: 600px;
+    margin-top: -20px;
+        /* Increase this negative value to pull h4 up even closer */
+        padding: 0;
+        /* Removes padding that could add space around h4 */
+}
+h5 { 
+    margin-left: auto;
+    padding-block: 15px;
+}
+h6 {
+  text-align: left;
+  margin-inline-start: -20px;
+  display: flex;
+}
+.gear-image { 
+  border-radius: 50%;
+  height: 30px;
+  display:flex;
+  float: inline-start;
+  padding:5px;
+  margin-right: 10px;
+  block-size: 20px;
+}
+
+
+.box-description {
+    height: 50%;
+    width: 40%;
+    margin-top: -22%; /* Reduces top margin in the parent */
+    margin-left: -3%;
+    padding: 5%;
+    border: none;
+}
+
+.box-description h4 {
+    margin-bottom: 10px;
+    /* Adds space below each h4 element */
+}
+
+.box-description h5 {
+    margin-top: 15px;
+    /* Adds space above the h5 element */
+}
